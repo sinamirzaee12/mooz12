@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'iransans';
+    src: url(font/IRANSans.eot) format('eot');
+    src: url(font/IRANSans.woff) format('woff');
+}
+
+/* Global styles */
+body {
+    font-family: 'iransans';
+    padding: 0;
+    margin: 0;
+    font-size: small;
+    background-color: rgba(234, 234, 234, 0.523);
+    text-align: right;
+}
+
+/* navbar */
+body {
+    font-family: 'iransans';
+    padding: 0%;
+    margin: 0%;
+    font-size: small;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    width: 59px;
+    height: 59px;
+    margin-left: 30px;
+    margin-top: 2px !important;
+}
+
+.text-logo {
+    margin-left: 5px;
+}
+
+.p-logo {
+    font-size: 16px;
+    margin-right: 3px;
+}
+
+#icon-navbar {
+    text-decoration: none !important;
+    height: 25px;
+}
+
+.nav-link {
+    font-size: 21px;
+    text-transform: capitalize;
+    color: rgb(35, 34, 34);
+}
+
+.nav-link:hover {
+    color: rgb(163, 163, 240);
+}
+
+.p-logo {
+    color: rgb(166, 45, 108);
+}
+
+.text-menu {
+    margin-top: -4px;
+    font-size: 18px !important;
+}
+
+
+
+.navbar-icon {
+    font-size: 1.5rem;
+    color: rgb(26, 25, 26);
+    text-decoration: none !important;
+    transition-property: color;
+    text-rendering: 2s;
+    transition-timing-function: linear;
+}
+
+/* navbar end */
+/* Skill section styles */
+.section-title-specal {
+    background-color: rgb(109, 182, 255);
+    color: #fff;
+    padding: 11px 29px;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    font-size: 20px;
+}
+
+.section-title-specal-inglish {
+    font-size: 20px;
+}
+
+.skilld {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Container styles */
+.container {
+    max-width: 1315px;
+}
+
+/* Right box styles */
+.home-right {
+    background-color: rgba(255, 255, 255, 0.681);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 30px !important;
+    padding: 20px;
+    margin-left: auto; /* Move to the right */
+    width: 60%; /* اندازه‌گیری باز شونده برای جلوگیری از پر شدن باکس */
+}
+
+.title-tag {
+    font-size: 18px;
+    color: #777;
+    font-weight: normal;
+    transition: 0.2s;
+}
+
+.input-contact{
+    border: none;
+    border-bottom: 1px solid rgb(67, 67, 67) !important;
+    height: 40px !important;
+    border-radius: 10px;
+    margin: 2px;
+}
+.btn-contact{
+    display: flex;
+    width: 150px;
+    margin: 20px;
+   
+}
+
+/* Left box styles */
+.home-left {
+    max-width: 450px;
+    margin-right: auto; /* Move to the left */
+    width: 40%; /* اندازه‌گیری باز شونده برای جلوگیری از پر شدن باکس */
+}
+
+.color-name {
+    background-color: rgba(254, 254, 254, 0.681);
+}
+
+.grop-ul {
+    border-radius: 30px !important;
+}
+/* end Left box styles */
+
+/* footer */
+.footer{
+    margin-top: 50px;
+    background-color: rgb(45, 45, 45);
+}
+.foter-icons{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: yellow;
+    transition: all 1s ease-in-out;
+}
+.foter-icon:hover{
+    color: rgb(65, 99, 249);
+}
+/* end footer */
