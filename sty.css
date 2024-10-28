@@ -22,6 +22,38 @@
 /* end pre loader */
 
 /* navbar */
+@media (max-width: 768px){
+    .logo{
+        width: 40px !important;
+        height: 40px !important;
+        /* margin-left: 30px !important; */
+        margin-top: 20px !important;
+    }
+    .text-logo{
+        font-size: small !important;
+    }
+    .input-group-text {
+        width: 20px; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+    .form-control2 {
+        width: 30% !important;
+        margin: 0 !important;
+    }
+    .iconsearch {
+        padding-left: 0 !important;
+    }
+
+}
+.form-control2{
+    width: 20%;
+}
+.iconsearch{
+    padding: 25%;
+    padding-left: 0%;
+}
 body {
     font-family: 'iransans';
     padding: 0%;
@@ -95,12 +127,29 @@ nav {
         animation: none !important;
     }
 
-    .text-title{
+    .text-title {
         display: none;
     }
-    .photo-header{
-        background-image: url(img/kagaz.jpg) !important;
+
+    .photo-header {
+        background: rgb(0, 118, 156);
+        background: linear-gradient(120deg, rgba(0, 118, 156, 1) 11%,
+                rgba(208, 58, 241, 1) 40%, rgba(200, 61, 242, 1) 50%,
+                rgba(127, 92, 255, 1) 79%);
     }
+}
+
+@media (min-width: 767px) {
+    .tablig {
+        display: none !important;
+    }
+}
+
+.tablig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
 }
 
 header {
@@ -207,7 +256,7 @@ header {
 }
 
 .invertory {
-    background-color: rgb(219, 218, 218);
+    background-color: rgba(244, 244, 244, 0.66);
     margin: 10px;
     margin-bottom: 5px;
 }

@@ -29,7 +29,7 @@ nav {
 .logo {
     width: 59px;
     height: 59px;
-    margin-left: 30px;
+    margin-right: 20px;
     margin-top: 2px !important;
 }
 
@@ -145,6 +145,18 @@ nav {
 }
 
 /* Left box styles */
+@media (max-width: 768px){
+    .home-left{
+        display: none !important;
+    }
+    .home-right{
+        width: 100% !important;
+    }
+  .btn-with{
+    width: 50% !important;
+    padding: 6% !important;
+  }
+}
 .home-left {
     max-width: 450px;
     margin-right: auto; /* Move to the left */
